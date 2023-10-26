@@ -1,0 +1,2 @@
+D:\project_3020_ThreadX\software\other\lv_font\font\fontC2bin\Debug\fontC2bin.exe
+D:\project_3020_ThreadX\software\other\fontC2bin\Debug\fontC2bin.exe

@@ -1,0 +1,18 @@
+SIZE:24 思源字体 BIN文件 
+lv_font_conv --no-compress --format bin --font "E:\Project_Code\JK\Font\font_otf\SiYuanHeiTi-Regular\SourceHanSansCN-Regular-2.otf" -r 0x0000-0x9fff --font "E:\Project_Code\JK\FONT\font_otf\SiYuanHeiTiGoogleBan\NotoSansCJK-Regular-1.otf" -r 0xAC00-0xD7AF -o "E:\Project_Code\JK\FONT\SiYuan24.bin" --bpp 2 --size 24 
+SIZE:24 思源字体 C文件 
+lv_font_conv --no-compress --format lvgl --font "E:\Project_Code\JK\Font\font_otf\SiYuanHeiTi-Regular\SourceHanSansCN-Regular-2.otf" -r 0x0000-0x9fff --font "E:\Project_Code\JK\FONT\font_otf\SiYuanHeiTiGoogleBan\NotoSansCJK-Regular-1.otf" -r 0xAC00-0xD7AF -o "E:\Project_Code\JK\FONT\SiYuan24.c" --bpp 2 --size 24 
+SIZE:16 思源字体 BIN文件
+lv_font_conv --no-compress --format bin --font "E:\Project_Code\JK\Font\font_otf\SiYuanHeiTi-Regular\SourceHanSansCN-Regular-2.otf" -r 0x0000-0x9fff --font "E:\Project_Code\JK\FONT\font_otf\SiYuanHeiTiGoogleBan\NotoSansCJK-Regular-1.otf" -r 0xAC00-0xD7AF -o "E:\Project_Code\JK\FONT\SiYuan16.bin" --bpp 1 --size 16 
+SIZE:16 思源字体 C文件
+lv_font_conv --no-compress --format lvgl --font "E:\Project_Code\JK\Font\font_otf\SiYuanHeiTi-Regular\SourceHanSansCN-Regular-2.otf" -r 0x0000-0x9fff --font "E:\Project_Code\JK\FONT\font_otf\SiYuanHeiTiGoogleBan\NotoSansCJK-Regular-1.otf" -r 0xAC00-0xD7AF -o "E:\Project_Code\JK\FONT\SiYuan16.c" --bpp 1 --size 16 
+
+内部字符范围
+0x0000-0x1EFF + 部分中文
+
+1.ascll码全部
+2.部分中文字：缝纫机各个机械部件可能有动作请您注意安全是否升级系统正在识别程序面板主电字体失败重新启动语音资源异常为丢失或版本与不对应。按确认键库无存储设备插入盘周一二三四五六七八九十日报警页文控驱触摸屏校准成功依次下光标
+3.越南语全部字段
+4.葡萄牙语全部字段
+
+注：0x0000-0x1EFF 包含了ascll码全部和越南语和葡萄牙语
